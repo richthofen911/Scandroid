@@ -98,5 +98,6 @@
     <orderEntry type="library" exported="" name="support-annotations-22.2.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.2.1" level="project" />
     <orderEntry type="library" exported="" name="scala-library-2.11.7" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.7" level="application" />
   </component>
 </module>

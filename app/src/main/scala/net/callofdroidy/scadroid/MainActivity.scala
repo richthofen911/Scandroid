@@ -11,17 +11,21 @@ import scala.Unit;
 
 class MainActivity extends AppCompatActivity {
 
+    //how to set val tv_display as global?
+
     override def onCreate(savedInstanceState: Bundle): Unit= {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val tv_display: TextView = findViewById(R.id.tv_display).asInstanceOf[TextView]
+        val tv_display = findViewById(R.id.tv_display).asInstanceOf[TextView]
 
         findViewById(R.id.btn_change).setOnClickListener(new OnClickListener {
-            override def onClick(v: View): Unit = {
+            override def onClick(v: View) = {
                 tv_display.setText("Hi Scala")
             }
         })
+
+
     }
 
 }
